@@ -1,0 +1,69 @@
+﻿@*
+*@
+@{
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cập nhật Món ăn</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <form id="updateMenuForm" onsubmit="return updateMenu();">
+                <label for="idmon">ID:</label>
+                <input type="text" id="idmon" name="idmon" readonly />
+
+                <label for="tenmon">Tên món:</label>
+                <input type="text" id="tenmon" name="tenmon" required />
+
+                <label for="donvitinh">Đơn vị tính:</label>
+                <input type="text" id="donvitinh" name="donvitinh" required />
+
+                <label for="dongia">Đơn giá:</label>
+                <input type="number" id="dongia" name="dongia" required />
+
+                <label for="soluong">Số lượng:</label>
+                <input type="number" id="soluong" name="soluong" required />
+
+                <label for="mota">Mô tả:</label>
+                <textarea id="mota" name="mota" required></textarea>
+
+                <label for="hinhanh">Hình ảnh:</label>
+                <input type="text" id="hinhanh" name="hinhanh" />
+
+                <button type="submit">Cập nhật</button>
+            </form>
+        </div>
+
+        <script src="~/js/update.js"></script>
+    </body>
+    </html>
+}

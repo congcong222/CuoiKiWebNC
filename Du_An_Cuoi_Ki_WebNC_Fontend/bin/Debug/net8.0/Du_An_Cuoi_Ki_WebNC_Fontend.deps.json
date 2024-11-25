@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Du_An_Cuoi_Ki_WebNC_Fontend/1.0.0": {
+        "runtime": {
+          "Du_An_Cuoi_Ki_WebNC_Fontend.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Du_An_Cuoi_Ki_WebNC_Fontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
