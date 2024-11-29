@@ -166,3 +166,4 @@ C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC\Du_An_Cuoi_Ki_WebNC\obj\Debug\ne
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC\Du_An_Cuoi_Ki_WebNC\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC.pdb
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC\Du_An_Cuoi_Ki_WebNC\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC.genruntimeconfig.cache
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC\Du_An_Cuoi_Ki_WebNC\obj\Debug\net8.0\ref\Du_An_Cuoi_Ki_WebNC.dll
+C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC\Du_An_Cuoi_Ki_WebNC\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC.sourcelink.json

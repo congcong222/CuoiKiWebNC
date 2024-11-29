@@ -7,8 +7,13 @@ namespace Du_An_Cuoi_Ki_WebNC.Model
         public Dbcontext(DbContextOptions<Dbcontext> options) : base(options)
         {
         }
-        public DbSet<MonAn> MonAns { get; set; }
+        public DbSet<sanpham> sanpham { get; set; }
+        public DbSet<ThuongHieus> thuonghieu { get; set; }
+        public DbSet<KhachHang> khachhang { get; set; }
+        public DbSet<PhieuXuat> phieuxuat { get; set; }
 
-        public DbSet<MENU> Brands { get; set; }
+        public DbSet<NhanvienModels> Nhanviens { get; set; }
+        public DbSet<TaikhoanKH> taikhoans { get; set; }
+
     }
 }
