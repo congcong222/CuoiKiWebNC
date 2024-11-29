@@ -18,8 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Fontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/AdminAddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkFkZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/AdminOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbk9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/AdminProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/Taikhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWlraG9hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/TrangChuAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuZ0NodUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/congn/source/repos/Du_An_Cuoi_Ki_WebNC_Fontend/Du_An_Cuoi_Ki_WebNC_Fontend/Views/Home/Update.cshtml]

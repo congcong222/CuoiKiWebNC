@@ -13,12 +13,31 @@ namespace Du_An_Cuoi_Ki_WebNC_Fontend.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Update()
         {
             return View();
         }
-
-        public IActionResult Update()
+        public IActionResult TrangChuAdmin()
+        {
+            return View();
+        }
+        public IActionResult AdminOrder()
+        {
+            return View();
+        }
+        public IActionResult AdminProduct()
+        {
+            return View();
+        }
+        public IActionResult AdminAddProduct()
+        {
+            return View();
+        }
+        public IActionResult TaiKhoan()
+        {
+            return View();
+        }
+        public IActionResult Insert()
         {
             return View();
         }

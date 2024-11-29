@@ -1,0 +1,211 @@
+﻿@*
+*@
+@{
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>Quản lý nhân viên</title>
+        <style>
+            /* Global styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                display: flex;
+            }
+
+            /* Sidebar menu styles */
+            .sidebar {
+                width: 250px;
+                background-color: #2c3e50;
+                height: 100vh;
+                color: #fff;
+                padding: 20px 0;
+                position: fixed;
+                left: 0;
+                top: 0;
+                overflow-y: auto;
+            }
+
+                .sidebar h2 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                .sidebar ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                    .sidebar ul li {
+                        padding: 15px 20px;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                    }
+
+                        .sidebar ul li:hover {
+                            background-color: #34495e;
+                        }
+
+                        .sidebar ul li a {
+                            color: #fff;
+                            text-decoration: none;
+                            display: block;
+                        }
+
+            /* Main content */
+            .main-content {
+                margin-left: 270px;
+                padding: 20px;
+                width: calc(100% - 270px);
+            }
+
+            .container {
+                background: #fff;
+                border-radius: 5px;
+                padding: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                margin: 0 0 20px;
+                font-size: 24px;
+            }
+
+            .actions {
+                margin-bottom: 10px;
+                display: flex;
+                gap: 10px;
+            }
+
+            .btn {
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            .btn-add {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            .btn-delete {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .search-box {
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 10px;
+            }
+
+                .search-box input {
+                    padding: 8px;
+                    width: 300px;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #f4f4f4;
+                font-weight: bold;
+            }
+
+            tbody tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            .action-btns {
+                display: flex;
+                justify-content: center;
+                gap: 5px;
+            }
+
+            .btn-edit {
+                background-color: #FFC107;
+                color: white;
+            }
+
+            .btn-remove {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .checkbox {
+                text-align: center;
+            }
+
+            i {
+                padding-right: 10px;
+                font-size: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Sidebar menu -->
+        <div class="sidebar">
+            <h2>Admin</h2>
+            <ul>
+                <li><a href="/Home/TrangChuAdmin"><i class="fa-regular fa-address-book"></i> Quản lý nhân viên</a></li>
+                <li><a href="/Home/TaiKhoan"><i class="fa-solid fa-users"></i>Quản lý người dùng</a></li>
+                <li><a href="/Home/AdminProduct"><i class="fa-solid fa-box-open"></i>Quản lý sản phẩm</a></li>
+                <li><a href="/Home/AdminOrder"><i class="fa-solid fa-calendar-week"></i>Quản lý đơn hàng</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <div class="container">
+                <h1>Danh sách nhân viên</h1>
+                <div class="actions">
+                    <button class="btn btn-add" onclick="window.location.href='../../Home/Insert'">+ Thêm nhân viên</button>
+                    <button class="btn btn-delete">Xóa tất cả</button>
+                </div>
+
+                <div class="search-box">
+                    <input id="searchInput" type="text" placeholder="Nhập mã nhân viên..." />
+                    <button class="btn btn-add" onclick="searchNhanvien()">Tìm kiếm</button>
+                </div>
+
+                <table id="nvTable">
+                    <thead>
+                        <tr>
+                            <th>Mã nhân viên</th>
+                            <th>Họ tên</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>SĐT</th>
+                            <th>Email</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="~/js/DangChien/TrangChu.js"></script>
+    </body>
+    </html>
+}

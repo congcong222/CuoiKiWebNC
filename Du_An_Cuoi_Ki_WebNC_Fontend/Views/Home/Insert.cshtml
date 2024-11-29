@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-        <title>Sửa thông tin nhân viên</title>
+        <title>Thêm nhân viên</title>
         <style>
             /* Global styles */
             body {
@@ -107,11 +107,6 @@
                 gap: 20px;
             }
 
-            i {
-                padding-right: 10px;
-                font-size: 17px;
-            }
-
             .btn {
                 padding: 10px 20px;
                 border: none;
@@ -120,6 +115,10 @@
                 cursor: pointer;
             }
 
+            i {
+                padding-right: 10px;
+                font-size: 17px;
+            }
             .btn-submit {
                 background-color: #4CAF50;
                 color: white;
@@ -128,11 +127,6 @@
             .btn-cancel {
                 background-color: #f44336;
                 color: white;
-            }
-
-            i {
-                padding-right: 10px;
-                font-size: 17px;
             }
         </style>
     </head>
@@ -151,8 +145,8 @@
         <!-- Main content -->
         <div class="main-content">
             <div class="container">
-                <h1>Danh sách nhân viên / sửa nhân viên</h1>
-                <form id="updateNhanvienForm">
+                <h1>Danh sách nhân viên / thêm nhân viên</h1>
+                <form id="addNhanvienForm">
                     <div>
                         <label for="manv">Mã nhân viên</label>
                         <input type="text" id="manv" placeholder="Nhập mã nhân viên" required>
@@ -196,8 +190,7 @@
                 </form>
             </div>
         </div>
-        <script src="~/js/DangChien/Updatee.js"></script>
+        <script src="~/js/DangChien/Insertt.js"></script>
     </body>
-
     </html>
 }

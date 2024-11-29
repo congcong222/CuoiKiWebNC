@@ -28,3 +28,4 @@ C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Font
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Fontend\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC_Fontend.pdb
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Fontend\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC_Fontend.genruntimeconfig.cache
 C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Fontend\obj\Debug\net8.0\ref\Du_An_Cuoi_Ki_WebNC_Fontend.dll
+C:\Users\congn\source\repos\Du_An_Cuoi_Ki_WebNC_Fontend\Du_An_Cuoi_Ki_WebNC_Fontend\obj\Debug\net8.0\Du_An_Cuoi_Ki_WebNC_Fontend.sourcelink.json

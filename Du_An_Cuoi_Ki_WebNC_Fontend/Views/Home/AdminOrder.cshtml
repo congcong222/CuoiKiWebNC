@@ -1,0 +1,229 @@
+﻿@*
+*@
+@{
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>Quản lý đơn hàng</title>
+        <style>
+            /* Global styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                display: flex;
+            }
+
+            /* Sidebar menu styles */
+            .sidebar {
+                width: 250px;
+                background-color: #2c3e50;
+                height: 100vh;
+                color: #fff;
+                padding: 20px 0;
+                position: fixed;
+                left: 0;
+                top: 0;
+                overflow-y: auto;
+            }
+
+                .sidebar h2 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                .sidebar ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                    .sidebar ul li {
+                        padding: 15px 20px;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                    }
+
+                        .sidebar ul li:hover {
+                            background-color: #34495e;
+                        }
+
+                        .sidebar ul li a {
+                            color: #fff;
+                            text-decoration: none;
+                            display: block;
+                        }
+
+            /* Main content */
+            .main-content {
+                margin-left: 270px;
+                padding: 20px;
+                width: calc(100% - 270px);
+            }
+
+            .container {
+                background: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                text-align:center;
+            }
+
+            .container h1 {
+                margin: 20px 0;
+                    font-size: 29px;
+                    color: #0085ff;
+            }
+
+            .container-body {
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                margin-top:15px;
+                height: 1500px
+            }
+            .search{
+                display:flex;
+                padding-top: 25px;
+                width: 1450px;
+            }
+           
+            .searchMDH {
+                width: 35%;
+                padding-left: 20px;
+            }
+
+            .searchDate{
+                width: 40%;
+            }
+            .body{
+                padding-top: 25px;
+                padding-left: 17px;
+                padding-right: 17px;
+            }
+            label{
+                font-size: 18px;
+                padding-right: 10px;
+                margin-top: 6px;
+            }
+            input{
+                font-size: 16px;
+                padding: 5px;
+                margin-right: 10px;
+            }
+
+            .all {
+                font-size: 17px;
+                padding: 0 20px;
+                margin-right: 80px;
+                background: #3b52f6;
+                border-radius: 3px;
+                border: none;
+                color: white;
+                font-weight: 500;
+                cursor:pointer;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #f4f4f4;
+                font-weight: bold;
+            }
+
+            
+
+            .checkbox {
+                text-align: center;
+            }
+            select{
+                font-size: 17px;
+                color: seagreen;
+                border: none;
+                outline: none;
+            }
+            i{
+                 padding-right: 10px;
+                 font-size: 17px;
+            }
+            button{
+                padding: 6px 20px;
+                background: #3bf678;
+                border: none;
+                border-radius: 3px;
+                font-size: 17px;
+                color: white;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Sidebar menu -->
+        <div class="sidebar">
+            <h2>Admin</h2>
+            <ul>
+                <li><a href="/Home/TrangChuAdmin"><i class="fa-regular fa-address-book"></i> Quản lý nhân viên</a></li>
+                <li><a href="/Home/TaiKhoan"><i class="fa-solid fa-users"></i>Quản lý người dùng</a></li>
+                <li><a href="/Home/AdminProduct"><i class="fa-solid fa-box-open"></i>Quản lý sản phẩm</a></li>
+                <li><a href="/Home/AdminOrder"><i class="fa-solid fa-calendar-week"></i>Quản lý đơn hàng</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <div class="container">
+                <h1>Danh sách đơn hàng</h1>
+                <div class="actions">
+                    
+                </div>
+            </div>
+            <div class="container-body">
+                <div class="search">
+                    <div class="searchMDH">
+                        <label>Tìm kiếm</label>
+                        <input id="textSearch" placeholder="Nhập mã đơn hàng" />
+                        <button id="search">Tìm</button>
+                    </div>
+                    <button id="searchAll" class="all">Tất Cả</button>
+                    <div class ="searchDate">
+                        <input placeholder="Từ ngày" id="tungay"/>
+                        <input placeholder="Đến ngày" id="denngay" />
+                        <button id="TimKiem">Tìm</button>
+                    </div>
+                </div>
+                <div class="body">
+                    <table id="OrderTable">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" /></th>
+                                <th>Mã đơn hàng</th>
+                                <th>Họ tên</th>
+                                <th>Trạng Thái</th>
+                                <th>Tổng Tiền</th>
+                                <th>Thời Gian</th>
+                                <th>Thao Tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>  
+        </div>
+        <script src="~/js/VanCong/Order.js"></script>
+    </body>
+    </html>
+}

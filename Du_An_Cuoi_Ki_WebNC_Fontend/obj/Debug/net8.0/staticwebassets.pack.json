@@ -13,16 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\app.js",
-      "PackagePath": "staticwebassets\\js\\app.js"
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\DangChien\\Insertt.js",
+      "PackagePath": "staticwebassets\\js\\DangChien\\Insertt.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\DangChien\\TrangChu.js",
+      "PackagePath": "staticwebassets\\js\\DangChien\\TrangChu.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\DangChien\\Updatee.js",
+      "PackagePath": "staticwebassets\\js\\DangChien\\Updatee.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\DangChien\\User.js",
+      "PackagePath": "staticwebassets\\js\\DangChien\\User.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\VanCong\\Order.js",
+      "PackagePath": "staticwebassets\\js\\VanCong\\Order.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\VanCong\\ProductAddd.js",
+      "PackagePath": "staticwebassets\\js\\VanCong\\ProductAddd.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\VanCong\\Productt.js",
+      "PackagePath": "staticwebassets\\js\\VanCong\\Productt.js"
     },
     {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\update.js",
-      "PackagePath": "staticwebassets\\js\\update.js"
     },
     {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib\\bootstrap\\LICENSE",
