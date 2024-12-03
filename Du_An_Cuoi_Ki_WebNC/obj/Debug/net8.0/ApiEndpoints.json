@@ -195,8 +195,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "sp",
-        "Type": "NguyenVanCong_2307.Models.sanpham",
+        "Name": "spDto",
+        "Type": "Du_An_Cuoi_Ki_WebNC.DTO.SanPhamDTO",
         "IsRequired": true
       }
     ],
@@ -262,6 +262,26 @@
     "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
     "Method": "MonAns",
     "RelativePath": "api/CongAPI/ListSanPham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "ListSanPhamWeb",
+    "RelativePath": "api/CongAPI/ListSanPhamWeb",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -365,8 +385,8 @@
         "IsRequired": false
       },
       {
-        "Name": "updatedSanPham",
-        "Type": "NguyenVanCong_2307.Models.sanpham",
+        "Name": "updatedSanPhamDTO",
+        "Type": "Du_An_Cuoi_Ki_WebNC.DTO.SanPhamDTO",
         "IsRequired": true
       }
     ],

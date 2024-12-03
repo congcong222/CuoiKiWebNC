@@ -16,8 +16,34 @@ namespace Du_An_Cuoi_Ki_WebNC.Controllers
         {
             _dbContext = dbContext;
         }
+        [HttpGet("ListSanPhamWeb")]
+        public async Task<ActionResult<IEnumerable<object>>> ListSanPhamWeb()
+        {
+            if (_dbContext.PhienBanSanPhams == null || _dbContext.sanpham == null)
+            {
+                return NotFound();
+            }
+
+            var sanPhamWebList = await _dbContext.PhienBanSanPhams
+                .Include(pb => pb.SanPham) // Bao gồm thông tin sản phẩm liên kết
+                .Select(pb => new
+                {
+                    hinhanh = pb.SanPham.hinhanh, // Hình ảnh từ bảng sanpham
+                    tensp = pb.SanPham.tensp, // Tên sản phẩm từ bảng sanpham
+                    kichthuocman = pb.SanPham.kichthuocman, // Kích thước màn hình từ bảng sanpham
+                    ram = pb.ram, // RAM từ bảng phienbansanpham
+                    rom = pb.rom, // ROM từ bảng phienbansanpham
+                    giaNhap = pb.giaNhap, // Giá nhập từ bảng phienbansanpham
+                    giaXuat = pb.giaXuat // Giá xuất từ bảng phienbansanpham
+                })
+                .Distinct() // Loại bỏ các bản ghi trùng lặp
+                .ToListAsync();
+
+            return Ok(sanPhamWebList); // Trả về dữ liệu dưới dạng JSON
+        }
+
         [HttpPut("UpdateSanPham")]
-        public async Task<ActionResult> UpdateSanPham(int masp, [FromBody] sanpham updatedSanPham)
+        public async Task<ActionResult> UpdateSanPham(int masp, [FromBody] SanPhamDTO updatedSanPhamDTO)
         {
             if (_dbContext.sanpham == null)
             {
@@ -32,21 +58,21 @@ namespace Du_An_Cuoi_Ki_WebNC.Controllers
             }
 
             // Cập nhật thông tin sản phẩm
-            existingSanPham.tensp = updatedSanPham.tensp;
-            existingSanPham.hinhanh = updatedSanPham.hinhanh;
-            existingSanPham.xuatxu = updatedSanPham.xuatxu;
-            existingSanPham.chipxuly = updatedSanPham.chipxuly;
-            existingSanPham.dungluongpin = updatedSanPham.dungluongpin;
-            existingSanPham.kichthuocman = updatedSanPham.kichthuocman;
-            existingSanPham.hedieuhanh = updatedSanPham.hedieuhanh;
-            existingSanPham.phienbanhdh = updatedSanPham.phienbanhdh;
-            existingSanPham.camerasau = updatedSanPham.camerasau;
-            existingSanPham.cameratruoc = updatedSanPham.cameratruoc;
-            existingSanPham.thoigianbaohanh = updatedSanPham.thoigianbaohanh;
-            existingSanPham.thuonghieu = updatedSanPham.thuonghieu; // Nếu có khóa ngoại
-            existingSanPham.khuvuckho = updatedSanPham.khuvuckho;
-            existingSanPham.soluongton = updatedSanPham.soluongton;
-            existingSanPham.trangthai = updatedSanPham.trangthai;
+            existingSanPham.tensp = updatedSanPhamDTO.tensp;
+            existingSanPham.hinhanh = updatedSanPhamDTO.hinhanh;
+            existingSanPham.xuatxu = updatedSanPhamDTO.xuatxu;
+            existingSanPham.chipxuly = updatedSanPhamDTO.chipxuly;
+            existingSanPham.dungluongpin = updatedSanPhamDTO.dungluongpin;
+            existingSanPham.kichthuocman = updatedSanPhamDTO.kichthuocman;
+            existingSanPham.hedieuhanh = updatedSanPhamDTO.hedieuhanh;
+            existingSanPham.phienbanhdh = updatedSanPhamDTO.phienbanhdh;
+            existingSanPham.camerasau = updatedSanPhamDTO.camerasau;
+            existingSanPham.cameratruoc = updatedSanPhamDTO.cameratruoc;
+            existingSanPham.thoigianbaohanh = updatedSanPhamDTO.thoigianbaohanh;
+            existingSanPham.thuonghieu = updatedSanPhamDTO.thuonghieu; // Nếu có khóa ngoại
+            existingSanPham.khuvuckho = updatedSanPhamDTO.khuvuckho;
+            existingSanPham.soluongton = updatedSanPhamDTO.soluongton;
+            existingSanPham.trangthai = updatedSanPhamDTO.trangthai;
 
             // Cập nhật vào cơ sở dữ liệu
             _dbContext.sanpham.Update(existingSanPham);
@@ -132,10 +158,10 @@ namespace Du_An_Cuoi_Ki_WebNC.Controllers
         }
 
         [HttpPost("InsertSanPham")]
-        public async Task<ActionResult<sanpham>> ThemsanPham([FromBody] sanpham sp)
+        public async Task<ActionResult<sanpham>> ThemsanPham([FromBody] SanPhamDTO spDto)
         {
             // Kiểm tra dữ liệu đầu vào
-            if (sp == null || string.IsNullOrEmpty(sp.tensp))
+            if (spDto == null || string.IsNullOrEmpty(spDto.tensp))
             {
                 return BadRequest("Dữ liệu sản phẩm không hợp lệ.");
             }
@@ -143,22 +169,22 @@ namespace Du_An_Cuoi_Ki_WebNC.Controllers
             // Tạo một đối tượng mới để thêm vào DbContext
             var newSanPham = new sanpham
             {
-                masp = sp.masp,
-                tensp = sp.tensp,
-                hinhanh = sp.hinhanh,
-                xuatxu = sp.xuatxu,
-                chipxuly = sp.chipxuly,
-                dungluongpin = sp.dungluongpin,
-                kichthuocman = sp.kichthuocman,
-                hedieuhanh = sp.hedieuhanh,
-                phienbanhdh = sp.phienbanhdh,
-                camerasau = sp.camerasau,
-                cameratruoc = sp.cameratruoc,
-                thoigianbaohanh = sp.thoigianbaohanh,
-                thuonghieu = sp.thuonghieu, // Nếu có
-                khuvuckho = sp.khuvuckho,
-                soluongton = sp.soluongton,
-                trangthai = sp.trangthai
+                masp = spDto.masp,
+                tensp = spDto.tensp,
+                hinhanh = spDto.hinhanh,
+                xuatxu = spDto.xuatxu,
+                chipxuly = spDto.chipxuly,
+                dungluongpin = spDto.dungluongpin,
+                kichthuocman = spDto.kichthuocman,
+                hedieuhanh = spDto.hedieuhanh,
+                phienbanhdh = spDto.phienbanhdh,
+                camerasau = spDto.camerasau,
+                cameratruoc = spDto.cameratruoc,
+                thoigianbaohanh = spDto.thoigianbaohanh,
+                thuonghieu = spDto.thuonghieu, // Nếu có
+                khuvuckho = spDto.khuvuckho,
+                soluongton = spDto.soluongton,
+                trangthai = spDto.trangthai
             };
 
             // Thêm sản phẩm vào DbContext

@@ -1,17 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
-
-namespace NguyenVanCong_2307.Models
+﻿namespace Du_An_Cuoi_Ki_WebNC.DTO
 {
-    public class sanpham
+    public class SanPhamDTO
     {
-        [Key]
         public int masp { get; set; }
         public string tensp { get; set; }
         public string hinhanh { get; set; }
         public int? xuatxu { get; set; }
-        public string chipxuly {  get; set; }
+        public string chipxuly { get; set; }
         public int? dungluongpin { get; set; }
         public double? kichthuocman { get; set; }
         public int? hedieuhanh { get; set; }
@@ -23,15 +18,5 @@ namespace NguyenVanCong_2307.Models
         public int? khuvuckho { get; set; }
         public int soluongton { get; set; }
         public byte trangthai { get; set; } = 1;
-
-        [ForeignKey("thuonghieu")]
-        public virtual ThuongHieus? ThuongHieus { get; set; }
-        //public object PhienBanSanPhams { get; internal set; }
-        public ICollection<PhienBanSanPham?> PhienBanSanPhams { get; set; }
-
-        public sanpham()
-        {
-            PhienBanSanPhams = new List<PhienBanSanPham>();
-        }
     }
 }
