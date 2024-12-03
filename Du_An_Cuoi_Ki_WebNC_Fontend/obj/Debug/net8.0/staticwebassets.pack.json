@@ -5,6 +5,138 @@
       "PackagePath": "staticwebassets\\Du_An_Cuoi_Ki_WebNC_Fontend.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\banner2.png",
+      "PackagePath": "staticwebassets\\Images\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\black_cart.png",
+      "PackagePath": "staticwebassets\\Images\\black_cart.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\black_person.png",
+      "PackagePath": "staticwebassets\\Images\\black_person.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\black_search.png",
+      "PackagePath": "staticwebassets\\Images\\black_search.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\call_white.png",
+      "PackagePath": "staticwebassets\\Images\\call_white.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\eye_close.png",
+      "PackagePath": "staticwebassets\\Images\\eye_close.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\giftbox.png",
+      "PackagePath": "staticwebassets\\Images\\giftbox.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\google.png",
+      "PackagePath": "staticwebassets\\Images\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\icons8-email-70.png",
+      "PackagePath": "staticwebassets\\Images\\icons8-email-70.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\icons8-eye-16 (1).png",
+      "PackagePath": "staticwebassets\\Images\\icons8-eye-16 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\icons8-message-70.png",
+      "PackagePath": "staticwebassets\\Images\\icons8-message-70.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\icons8-phone-70 (1).png",
+      "PackagePath": "staticwebassets\\Images\\icons8-phone-70 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\icons8-search-50.png",
+      "PackagePath": "staticwebassets\\Images\\icons8-search-50.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\iphone15promax.png",
+      "PackagePath": "staticwebassets\\Images\\iphone15promax.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\logo_apple.png",
+      "PackagePath": "staticwebassets\\Images\\logo_apple.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\logo_cellphones.png",
+      "PackagePath": "staticwebassets\\Images\\logo_cellphones.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\logo_xiaomi.png",
+      "PackagePath": "staticwebassets\\Images\\logo_xiaomi.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\oppo.png",
+      "PackagePath": "staticwebassets\\Images\\oppo.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\pngtree-smartphone-shop-sale-logo-design-png-image_5069958.jpg",
+      "PackagePath": "staticwebassets\\Images\\pngtree-smartphone-shop-sale-logo-design-png-image_5069958.jpg"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_cart.png",
+      "PackagePath": "staticwebassets\\Images\\red_cart.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_check.png",
+      "PackagePath": "staticwebassets\\Images\\red_check.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_number-1.png",
+      "PackagePath": "staticwebassets\\Images\\red_number-1.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_number-2.png",
+      "PackagePath": "staticwebassets\\Images\\red_number-2.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_number-3.png",
+      "PackagePath": "staticwebassets\\Images\\red_number-3.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_number-4.png",
+      "PackagePath": "staticwebassets\\Images\\red_number-4.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\red_number-5.png",
+      "PackagePath": "staticwebassets\\Images\\red_number-5.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\white_cart.png",
+      "PackagePath": "staticwebassets\\Images\\white_cart.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\white_delivery_truck_speed.png",
+      "PackagePath": "staticwebassets\\Images\\white_delivery_truck_speed.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\white_location.png",
+      "PackagePath": "staticwebassets\\Images\\white_location.png"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\Images\\yellow_star.png",
+      "PackagePath": "staticwebassets\\Images\\yellow_star.png"
+    },
+    {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -29,6 +161,18 @@
       "PackagePath": "staticwebassets\\js\\DangChien\\User.js"
     },
     {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\Fontend\\home.js",
+      "PackagePath": "staticwebassets\\js\\Fontend\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\Fontend\\profile.js",
+      "PackagePath": "staticwebassets\\js\\Fontend\\profile.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\Fontend\\site.js",
+      "PackagePath": "staticwebassets\\js\\Fontend\\site.js"
+    },
+    {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\VanCong\\Order.js",
       "PackagePath": "staticwebassets\\js\\VanCong\\Order.js"
     },
@@ -43,6 +187,234 @@
     {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib - Copy\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib - Copy\\jquery\\dist\\jquery.min.map"
     },
     {
       "Id": "C:\\Users\\congn\\source\\repos\\Du_An_Cuoi_Ki_WebNC_Fontend\\Du_An_Cuoi_Ki_WebNC_Fontend\\wwwroot\\lib\\bootstrap\\LICENSE",

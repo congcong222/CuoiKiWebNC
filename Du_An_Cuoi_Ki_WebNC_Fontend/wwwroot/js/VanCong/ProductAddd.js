@@ -192,7 +192,7 @@ document.getElementById('update').addEventListener('click', async function () {
         window.location.href = '/Home/AdminProduct'; // Chuyển hướng về trang chính
     } else {
         const errorMessage = await response.text(); // Lấy thông báo lỗi từ phản hồi
-        alert('Lỗi khi cập nhật món ăn!');
+        alert('Lỗi khi cập nhật sản phẩm!');
     }
 });
 
